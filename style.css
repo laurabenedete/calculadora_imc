@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(228, 228, 228);
+    margin: 0%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+#total {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+#imc{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.imgIMC {
+    margin: auto;
+    display: block;
+}
+
+#resultado1 {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#resultado2 {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#resultado3 {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#resultado4 {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#resultado5 {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#resultado6 {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    width: 30%;
+    margin: 1%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+

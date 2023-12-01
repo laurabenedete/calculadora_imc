@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <noscript>Seu navegador está com o JavaScrip desativado!</noscript>
+
+    <H1>Calculadora de IMC</H1>
+
+    <div id="container">
+    <div id="total">
+    <form>
+        Peso (kg): <input type="number" id="peso">
+        <br/>
+        <br/>
+        Altura (m): <input type="number" id="altura">
+        <br/>
+        <br/>
+    </form>
+   
+    <button id="calcular">Calcular</button>
+
+    <div id="IMC">
+    <h2>Seu IMC é:</h2>
+    <input type="number" id="imc" disabled>
+    </div>
+</div>
+
+    <div id="resultado1">
+        <h3 id="faixa">Abaixo do normal</h3>
+        <p>Procure um médico. Algumas pessoas têm um baixo peso por características do seu organismo e tudo bem. Outras podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso.</p> 
+        <img class="imgIMC" src="/calculadora-imc/imgs/imc_abaixo.webp" alt="">
+    </div>
+
+    <div id="resultado2">
+        <h3 id="faixa">Normal</h3>
+        <p>Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida ativo e uma alimentação equilibrada.</p> 
+        <img class="imgIMC" src="/calculadora-imc/imgs/imc_normal.webp" alt="">
+    </div>
+
+    <div id="resultado2">
+        <h3 id="faixa">Sobrepeso</h3>
+        <p>Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como diabetes e hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa da obesidade pra valer.</p> 
+        <img class="imgIMC" src="/calculadora-imc/imgs/imc_sobrepeso.webp" alt="">
+    </div>
+
+    <div id="resultado4">
+        <h3 id="faixa">Obesidade grau I</h3>
+        <p>Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje! Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.</p> 
+        <img class="imgIMC" src="/calculadora-imc/imgs/imc_obesidade1.webp" alt="">
+    </div>
+
+    <div id="resultado5">
+        <h3 id="faixa">Obesidade grau II</h3>
+        <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida com o acompanhamento próximo de profissionais de saúde.</p> 
+        <img class="imgIMC" src="/calculadora-imc/imgs/imc_obesidade2.webp" alt="">
+    </div>
+
+    <div id="resultado6">
+        <h3 id="faixa">Obesidade grau III</h3>
+        <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.</p> 
+        <img class="imgIMC" src="/calculadora-imc/imgs/imc_obesidade3.webp" alt="">
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
